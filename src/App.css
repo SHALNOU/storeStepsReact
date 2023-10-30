@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icont {
+	display: flex;
+	flex-direction: column;
+	top: 20vh;
+	border: solid 2px black;
+	border-radius: 50px;
+	padding: 90px;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.table-link {
+	margin-top: 20px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.table-link {
+	padding-top: 20px;
+}
+
+.table {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+table th {
+	flex: 1;
+	text-align: center;
+}
+
+table th:first-child {
+	text-align: left;
+}
+
+table th:last-child {
+	text-align: right;
+}
+
+.tdfree {
+	/* text-align: right;
+	gap: 10px; */
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn-square btn-outline {
+	outline: none;
+}
+
+.editbtn {
+	margin: 0px 5px 0px 0px;
+	width: 22px;
+	height: 22px;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+
+.editbtn:hover {
+	cursor: pointer;
+	background-color: brown;
+}
